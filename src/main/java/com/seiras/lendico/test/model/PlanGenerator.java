@@ -1,10 +1,7 @@
 package com.seiras.lendico.test.model;
 
-import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
 
-@Component
 public class PlanGenerator {
 
     private double loanAmount;

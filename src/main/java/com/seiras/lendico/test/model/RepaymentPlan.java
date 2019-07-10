@@ -4,18 +4,18 @@ import java.time.LocalDateTime;
 
 public class RepaymentPlan {
 
-    private String borrowerPaymentAmount;
+    private double borrowerPaymentAmount;
     private LocalDateTime date;
-    private String initialOutstandingPrincipal;
-    private String interest;
-    private String principal;
-    private String remainingOutstandingPrincipal;
+    private double initialOutstandingPrincipal;
+    private double interest;
+    private double principal;
+    private double remainingOutstandingPrincipal;
 
-    public String getBorrowerPaymentAmount() {
+    public double getBorrowerPaymentAmount() {
         return borrowerPaymentAmount;
     }
 
-    public void setBorrowerPaymentAmount(String borrowerPaymentAmount) {
+    public void setBorrowerPaymentAmount(double borrowerPaymentAmount) {
         this.borrowerPaymentAmount = borrowerPaymentAmount;
     }
 
@@ -27,35 +27,35 @@ public class RepaymentPlan {
         this.date = date;
     }
 
-    public String getInitialOutstandingPrincipal() {
+    public double getInitialOutstandingPrincipal() {
         return initialOutstandingPrincipal;
     }
 
-    public void setInitialOutstandingPrincipal(String initialOutstandingPrincipal) {
+    public void setInitialOutstandingPrincipal(double initialOutstandingPrincipal) {
         this.initialOutstandingPrincipal = initialOutstandingPrincipal;
     }
 
-    public String getInterest() {
+    public double getInterest() {
         return interest;
     }
 
-    public void setInterest(String interest) {
+    public void setInterest(double interest) {
         this.interest = interest;
     }
 
-    public String getPrincipal() {
+    public double getPrincipal() {
         return principal;
     }
 
-    public void setPrincipal(String principal) {
+    public void setPrincipal(double principal) {
         this.principal = principal;
     }
 
-    public String getRemainingOutstandingPrincipal() {
+    public double getRemainingOutstandingPrincipal() {
         return remainingOutstandingPrincipal;
     }
 
-    public void setRemainingOutstandingPrincipal(String remainingOutstandingPrincipal) {
+    public void setRemainingOutstandingPrincipal(double remainingOutstandingPrincipal) {
         this.remainingOutstandingPrincipal = remainingOutstandingPrincipal;
     }
 }

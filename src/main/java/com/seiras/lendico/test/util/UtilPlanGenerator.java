@@ -5,6 +5,10 @@ import java.math.RoundingMode;
 
 public class UtilPlanGenerator {
 
+    public static Double round(Double value) {
+        return round(value, 2);
+    }
+
     public static Double round(Double value, int places) {
         if (places < 0) throw new IllegalArgumentException();
 
